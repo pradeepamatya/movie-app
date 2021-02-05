@@ -17,7 +17,7 @@ const NavBar = (props) => {
 
   return (
     <div>
-      <Navbar dark expand="md" fixed="top" style={{ background: 'transparent' }}>
+      <Navbar light expand="md" fixed="top" style={{ background: 'transparent' }}>
         <div className="container-fluid">
           <NavbarBrand href="/">MOVIEDB</NavbarBrand>
           <NavbarToggler onClick={toggle} />
